@@ -1,48 +1,36 @@
-# Indoor Wayfinding Solution
+# Wayfinder
 
-> Indoor wayfinding, indoor navigation, indoor positioning, indoor mapping and spatial operations for shopping malls, airports, hospitals, campuses, museums and exhibition centres. Modules include 3D indoor maps, turn-by-turn navigation, AR wayfinding, interactive and digital directories, parking guidance with reverse car finding, people counting, indoor geofencing, staff positioning and patrol.
+> Indoor mapping, turn-by-turn navigation, directory kiosks and parking guidance for large venues: malls, hospitals, airports, campuses, museums and exhibition centres. Delivered as map production plus positioning design, the platform behind it, kiosks, integration, calibration, acceptance testing and support.
 
-Everything here is delivered as a platform plus deployment service: map production, positioning design (BLE, UWB, Wi-Fi or hybrid), kiosk and signage specification, integration with venue systems, calibration, acceptance testing and ongoing support. Delivery models are SaaS, private cloud and on-premise. We do not sell consumer navigation apps, outdoor maps, robot navigation, asset tracking or RTLS hardware, and we do not provide camera-based identity tracking.
+This site is deliberately small. Every page answers a question a technical buyer can check: run the routing engine, read the acceptance protocol, read the data summary, or read the terms that go in the contract. Pages that would need client evidence we do not yet have permission to publish were removed rather than padded.
 
-## Core pages
+## Pages
 
-- /: indoor wayfinding solution, the module map and the live demo
-- /indoor-navigation-system/: turn-by-turn indoor navigation across floors, step-free routing, outdoor-to-indoor handover
-- /indoor-positioning-system/: BLE, UWB, Wi-Fi and hybrid positioning, accuracy, floor detection, calibration
-- /indoor-mapping/: 3D and multi-floor indoor maps, walk graph, map editor, data ownership
-- /indoor-wayfinding-software/: platform, REST API and SDK, deployment models, integrations, SLA
-- /mall-wayfinding/: mall directory, tenant and event promotion, parking, measured effect
-- /ar-indoor-navigation/: camera-overlay AR guidance and when it beats a 2D map
-- /parking-guidance-system/: bay guidance, reverse car finder, bay reservation
-- /indoor-wayfinding-price/: what drives cost, three delivery scopes, how a budget is built
-- /people-counting-system/: footfall, zone heatmaps, journey paths, privacy profile
-- /geofence/: indoor and venue geofencing, zone rules, alerts
-- /staff-positioning/: dispatch, patrol and emergency response with consent and retention limits
-- /patrol-system/: patrol routes, checkpoints, compliance statistics
-- /interactive-directory/ and /digital-directory/: kiosk and screen layers
-- /white-label-wayfinding/ and /oem-odm/: white-label and integrator delivery
-- /deployment-examples/: reference configurations for budgeting, no client names
+- /: what the system does, the live demo, venue types, positioning options and delivery models
+- /indoor-navigation-system/: turn-by-turn routing across floors, landmark-based steps, step-free option, integration and admin
+- /indoor-positioning-system/: BLE, UWB, Wi-Fi and hybrid positioning, accuracy ranges, floor detection, calibration
+- /indoor-mapping/: floor plates, points of interest, walk graph, map editor, data ownership
+- /parking-guidance-system/: bay guidance, reverse car finding by plate or bay number, reservation, parking-system integration
+- /venues/: how the content model changes by venue type, plus the kiosk layer and optional operations modules
+- /indoor-wayfinding-price/: what drives cost, three delivery scopes, how a budget is built, no invented amounts
+- /demo/: a working three-level map with search, turn list and step-free recalculation
+- /delivery/: the six clauses we put in a contract, support severity levels, data ownership and exit
+- /downloads/: technical specification template, acceptance test protocol, data processing summary (PDF)
+- /about/: what we do ourselves, how we scope and accept a project, what we will not claim
+- /contact/: how to reach us
 
-## Venue pages
+## Documents
 
-- /mall-wayfinding/, /hospital-wayfinding/, /airport-wayfinding/, /campus-wayfinding/, /museum-wayfinding/, /exhibition-center-wayfinding/
-
-## Knowledge
-
-- /knowledge/indoor-navigation-guide/: the four layers of an indoor navigation system and what a project involves
-- /knowledge/indoor-mapping-accuracy/: map accuracy versus positioning accuracy, and how to test both
-- /knowledge/wayfinding-cost/: the six cost blocks in a wayfinding budget, without invented figures
-- /knowledge/indoor-navigation-vs-gps/: why satellite positioning stops at the door
-- /knowledge/privacy-indoor-positioning/: what data an indoor system collects and what to put in the contract
+- /downloads/indoor-wayfinding-technical-specification.pdf: tender-ready specification with MUST/SHOULD requirements, per-zone accuracy targets, interface list, performance and acceptance
+- /downloads/acceptance-test-protocol.pdf: sampling method, ten fixed routes, defect classes and sign-off
+- /downloads/data-processing-summary.pdf: data categories, what is not collected, retention, security, exit
 
 ## Scope and boundaries
 
-- Consumer navigation apps: not offered.
-- Outdoor mapping, robot or drone navigation, indoor cycling: not offered.
-- Asset tracking and RTLS hardware: not offered.
+- Not offered: consumer navigation apps, outdoor mapping, robot or drone navigation, asset tracking, RTLS hardware, camera-based identity tracking.
 - Beacons and UWB are specified and integrated, not manufactured.
-- Indoor GPS is an inaccurate term; the site explains why.
 - Staff location is limited to dispatch, patrol and emergency mustering on consenting devices.
+- No client name, logo or performance figure is published without written permission.
 
 ## Contact
 
