@@ -12,6 +12,7 @@ This site is deliberately small. Every page answers a question a technical buyer
 - /indoor-mapping/: floor plates, points of interest, walk graph, map editor, data ownership
 - /parking-guidance-system/: bay guidance, reverse car finding by plate or bay number, reservation, parking-system integration
 - /venues/: how the content model changes by venue type, plus the kiosk layer and optional operations modules
+- /work/: three real deployments described without client names: a single-level underground retail complex, a national chain roll-out, a mixed-use commercial project
 - /indoor-wayfinding-price/: what drives cost, three delivery scopes, how a budget is built, no invented amounts
 - /demo/: a working three-level map with search, turn list and step-free recalculation
 - /delivery/: the six clauses we put in a contract, support severity levels, data ownership and exit
